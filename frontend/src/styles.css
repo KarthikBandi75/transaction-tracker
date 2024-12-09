@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.form-container {
+  width: 50%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.transaction-table th,
+.transaction-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.transaction-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+button {
+  background-color: #ff5722;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+.homepage-container {
+  margin: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.transactions-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.transactions-table th,
+.transactions-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.transactions-table th {
+  background-color: #f4f4f4;
+}
+
+.transaction-card-view {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.transaction-card {
+  background-color: #fff;
+  padding: 20px;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.actions .icon {
+  margin: 0 5px;
+}
+
+.actions .view-icon {
+  color: blue;
+}
+
+.actions .edit-icon {
+  color: orange;
+}
+
+.actions .delete-icon {
+  color: red;
+}
+
+.add-transaction-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.net-amount {
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+
+
